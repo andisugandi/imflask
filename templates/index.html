@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block script %}
+	{% include "includes/_indexscript.html" %}
+{% endblock script %}
+
+{% block content %}
+    
+    {% include "includes/_indexslider.html" %}
+
+    <div id="content-wrapper">
+        
+		{% include "includes/_services.html" %}
+
+        {% include "includes/_quote.html" %}
+
+        {% include "includes/_about-us.html" %}
+
+        {% include "includes/_stats.html" %}
+
+        {% include "includes/_portfolio.html" %}
+
+        {% include "includes/_testimonial.html" %}
+
+        {% include "includes/_blog.html" %}
+
+        {% include "includes/_price.html" %}
+
+        {% include "includes/_mapwrapper.html" %}
+
+        {% include "includes/_contact.html" %}
+    </div>
+    {% include "includes/_footer.html" %}
+{% endblock content %}

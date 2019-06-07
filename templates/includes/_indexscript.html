@@ -1,0 +1,30 @@
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+    'use strict';
+        jQuery('body').backstretch([
+            "{{ url_for('static', filename='images/bg/bg1.jpg') }}",
+            "{{ url_for('static', filename='images/bg/bg2.jpg') }}",
+            "{{ url_for('static', filename='images/bg/bg3.jpg') }}"
+        ], {duration: 5000, fade: 500, centeredY: true });
+        
+        // # Penggunaan API-nya Google Maps sudah BERBAYAR sejak Mei 2018!
+        // # Jadi harus pengaturan petanya harus manual
+        // $("#mapwrapper").gMap({ controls: false,
+        //     scrollwheel: false,
+        //     markers: [{
+        //         latitude:40.7566,
+        //         longitude: -73.9863,
+        //     icon: { image: "{{ url_for('static', filename='images/marker.png') }}",
+        //         iconsize: [44,44],
+        //         iconanchor: [12,46],
+        //         infowindowanchor: [12, 0] } }],
+        //     icon: {
+        //         image: "{{ url_for('static', filename='images/marker.png') }}",
+        //         iconsize: [26, 46],
+        //         iconanchor: [12, 46],
+        //         infowindowanchor: [12, 0] },
+        //     latitude:40.7566,
+        //     longitude: -73.9863,
+        //     zoom: 14 });
+    });
+</script>

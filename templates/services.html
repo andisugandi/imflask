@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block script %}
+    {% include "includes/_headscript.html" %}
+{% endblock script %}
+
+{% block content %}
+    {% include "includes/_topslider.html" %}
+
+    <div id="content-wrapper">
+        <section id="services" class="white">
+            <div class="container">
+                <div class="gap"></div>
+                {% include "services/_products02.html" %}
+            </div><!--/.container-->
+            <div class="gap"></div>
+            {% include "services/_headskills.html" %}
+            {% include "services/_skills.html" %}
+        </section><!--/#services-->
+    </div><!--/#content-wrapper-->
+    {% include "includes/_footer.html" %}
+{% endblock content %}

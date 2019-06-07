@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block script %}
+    {% include "includes/_headscript.html" %}
+{% endblock script %}
+    
+{% block content %}
+    {% include "includes/_topslider.html" %}
+
+    <div id="content-wrapper">
+        <section id="blog" class="white">
+            <div class="container">
+            <div class="gap"></div>
+                <div class="row">
+                    <aside class="col-sm-4 col-sm-push-8">
+                        {% include "blog/_blogcategories.html" %}                        
+
+                        {% include "blog/_blogtags.html" %}
+                    </aside>
+                    <div class="col-sm-8 col-sm-pull-4">
+                        <div class="blog">
+                            {% include "blog/_blogfullcontent.html" %}
+
+                            {% include "blog/_blogpagination.html" %}
+                        </div>
+                    </div><!--/.col-md-8-->
+                </div><!--/.row-->
+            </div>
+        </section><!--/#blog-->
+    </div>
+    {% include "includes/_footer.html" %}
+{% endblock content %}

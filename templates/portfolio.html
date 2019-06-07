@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block script %}
+    {% include "includes/_headscript.html" %}
+{% endblock script %}
+
+{% block content %}
+    {% include "includes/_topslider.html" %}
+
+    <div id="content-wrapper">
+        {% include "includes/_portfolio.html" %}
+    </div><!--/#content-wrapper-->
+    {% include "includes/_footer.html" %}
+{% endblock content %}
