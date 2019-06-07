@@ -19,10 +19,8 @@ Imflask is a prototype of simple web application built from [Flask (Python)](htt
 
 5. Create `.env` file:
 
-        ```python
         FLASK_ENV="development"
         FLASK_APP="flaskweb.py"
-        ```
 
 6. Install Python modules required, and run the server:
 
