@@ -25,7 +25,7 @@ Imflask is a prototype of simple web application built from [Flask (Python)](htt
 6. Install Python modules required, and run the server:
 
         $ pip install -r requirements.txt
-        $ run flask
+        $ flask run
 
 7. Using web browser, go to `http://127.0.0.1:5000` and you'll see the application running.
 
