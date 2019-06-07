@@ -30,4 +30,4 @@ Imflask is a prototype of simple web application built from [Flask (Python)](htt
 7. Using web browser, go to `http://127.0.0.1:5000` and you'll see the application running.
 
 ## Demo
-[![Imflask](https://img.youtube.com/vi/tvdV1UAr564/0.jpg)](https://www.youtube.com/watch?v=tvdV1UAr564)
+[![Imflask](https://img.youtube.com/vi/miyD4N6SSFU/0.jpg)](https://youtu.be/miyD4N6SSFU)
